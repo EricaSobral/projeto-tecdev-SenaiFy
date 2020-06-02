@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    /* Altura baseada no viewport */
+    height: 100vh;
+    /* chamar a imagem do fundo */
+    background:url(img/bg.jpg) no-repeat;
+    /* Cobrir toda a area da tela  */
+    background-size: cover;
+    /* Torna os elementos flexiveis */
+    display: flex;
+}
